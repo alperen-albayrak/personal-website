@@ -1,5 +1,9 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+// import generate from '../scripts/gen-rss';
+
+// generate()
+
 export default function Document() {
   const meta = {
     title: 'Alperen Albayrak\'s Personal Website',
