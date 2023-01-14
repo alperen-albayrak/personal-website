@@ -19,7 +19,7 @@ export default {
     footer: (
         <small style={{ display: 'block', marginTop: '8rem' }}>
             {new Date().getFullYear()} © Alperen Albayrak.
-            <a href="/feed.xml">RSS</a>
+            {/* <a href="/feed.xml">RSS</a> */}
             <style jsx>{`
             a {
               float: right;
