@@ -1,7 +1,9 @@
 ---
-type: page
-title: Deneme Blog Yazısı
-date: 2024-08-29
+title: Markdown Examples
+date: 2021/3/19
+description: View examples of all possible Markdown options.
+tag: web development
+author: Alperen
 ---
 
 ```python
