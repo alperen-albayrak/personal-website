@@ -1,0 +1,50 @@
+---
+type: page
+title: Deneme Blog Yazısı
+date: 2024-08-29
+---
+
+```python
+print("Hello, World!")
+```
+
+
+```c
+// Draws the borders
+void snake_draw_board( )
+{
+    int i;
+    for( i=0; i<g_height; i++ )
+    {
+        snake_write_text( i, 0,         "X" );
+        snake_write_text( i, g_width-1, "X" );
+    }
+    for( i=1; i<g_width-1; i++ )
+    {
+        snake_write_text( 0, i,          "X" );
+        snake_write_text( g_height-1, i, "X" );
+    }
+    snake_write_text( g_height+1, 2, "Score:" );
+}
+```
+
+<img src={https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500} alt="Cat Picture" />
+
+*italic* _italic_
+
+**bold** __bold__
+
+* bullet list
+* element 2
+* element 3
+
+- bullet list
+- element2 
+     - child element
+- element 3
+
+
+# h1
+## h2
+## h3
+### h4
